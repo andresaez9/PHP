@@ -1,0 +1,18 @@
+{
+    "name": "andres/crud1",
+    "autoload": {
+        "psr-4": {
+            "Andres\\Crud1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andres Saez",
+            "email": "andres14.ass@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "rakit/validation": "^1.4"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "andres/crud3",
+    "autoload": {
+        "psr-4": {
+            "CRUD3\\Public\\": "public",
+            "CRUD3\\Core\\": "core",
+            "CRUD3\\App\\Controller\\": "app/controllers",
+            "CRUD3\\App\\Models\\": "app/models"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andres Saez",
+            "email": "andres14.ass@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "rakit/validation": "^1.4",
+        "stefangabos/zebra_pagination": "^2.4"
+    }
+}
